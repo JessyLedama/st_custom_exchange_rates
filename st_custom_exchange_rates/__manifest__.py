@@ -7,6 +7,7 @@
     'depends': ['account'],
     'data': [
         'views/account_move_views.xml',
+        'views/account_payment_views.xml',
     ],
     'installable': True,
     'application': False,
