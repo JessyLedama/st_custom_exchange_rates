@@ -4,10 +4,12 @@
     'summary': 'Manage exchange rates from Sales, Invoices, Bills, Journal Entries and Payments. The resulting journal entries use this custom exchange rate.',
     'description': 'Manage exchange rates from Sales, Invoices, Bills, Journal Entries and Payments. The resulting journal entries use this custom exchange rate for debits and credits.',
     'author': 'SIMI Technologies',
-    'depends': ['account'],
+    'depends': ['account', 'sale', 'purchase'],
     'data': [
         'views/account_move_views.xml',
         'views/account_payment_views.xml',
+        'views/sale_order_views.xml',
+        'views/purchase_order_views.xml',
     ],
     'installable': True,
     'application': False,
