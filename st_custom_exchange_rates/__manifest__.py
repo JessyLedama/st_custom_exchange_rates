@@ -3,7 +3,7 @@
     'version': '18.0.1.0.0',
     'summary': 'Manage exchange rates from Sales, Purchase, Invoices, Bills, Journal Entries and Payments. The resulting journal entries use this custom exchange rate.',
     'description': 'Manage exchange rates from Sales, Purchase, Invoices, Bills, Journal Entries and Payments. The resulting journal entries use this custom exchange rate for debits and credits.',
-    'author': 'SIMI Technologies',
+    'author': 'Jessy Ledama',
     'depends': ['account', 'sale', 'purchase'],
     'data': [
         'views/account_move_views.xml',
